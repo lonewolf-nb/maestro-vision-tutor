@@ -1,0 +1,36 @@
+# =========================
+# PYTHON BACKEND
+# =========================
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+venv/
+env/
+# uv specific
+.uv/
+uv.lock
+
+# =========================
+# REACT/NODE FRONTEND
+# =========================
+node_modules/
+dist/
+build/
+.next/
+out/
+
+# =========================
+# SECRETS & KEYS
+# =========================
+.env
+.env.local
+.env.development
+.env.production
+*.pem
+
+# =========================
+# OS GENERATED FILES
+# =========================
+.DS_Store
+Thumbs.db
